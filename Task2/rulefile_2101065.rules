@@ -1,0 +1,15 @@
+alert tcp any any -> any 21 (flags:S; msg:"Attempt to FTP to server";sid:100001;rev:1;)
+
+alert icmp6 any any -> $HOME_NET any (msg:"Attempt to ping the server (ICMPv6)"; sid:100002; rev:1;)
+
+alert tcp any any -> any 23 (flags:S; msg:"Attempt to telnet to server";sid:100003;rev:1;)
+
+alert tcp any any -> any 22 (content:"SSH-2"; msg:"Attempt to SSH to server";sid:100004;rev:1;)
+
+alert tcp any any -> any 80 (flags:S; msg:"Attempt to http to server";sid:100005;rev:1;)
+
+alert udp any any -> any 53 ( msg:"DNS Query Ubuntu."; content:"ubuntu"; sid:100006; rev:1; ) 
+
+alert tcp any any -> any any ( msg:"Found secret.txt."; content:"secret|2e|txt"; nocase; sid:100007; rev:1;)
+
+alert tcp any any -> any 22 ( msg:"FA for SSH teardown."; flags:AF; sid:100008;rev:1;)

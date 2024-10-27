@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=AutoRun Script
+Exec=./autorun.sh
+Icon=utilities-terminal
+Terminal=false
