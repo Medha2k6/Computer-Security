@@ -2,7 +2,7 @@
 
 Welcome to the repository for the CS361 Computer Security course, taught by Dr. Rakesh Matam. This repository contains academic projects that explore various aspects of computer security.
 
-## Task 1: Malicious Software Analysis
+## Task 1: Malicious Software Analysis 
 
 - **Overview:**  
   This project explores the development and behavior of a simulated malicious software, named `v.cpp`, within a Linux environment. It focuses on how malware can modify files and propagate itself.
@@ -18,6 +18,8 @@ Welcome to the repository for the CS361 Computer Security course, taught by Dr. 
 
 - **Key Findings:**  
   The project highlighted significant security risks, including threats to file integrity, unauthorized replication, and the potential for exploitation by malicious actors. It emphasized the importance of cybersecurity awareness.
+
+- **Read More:** [Task 1 Readme](Task1/README.md)
 
 ## Task 2: Network Intrusion Detection System - Snort
 
@@ -35,5 +37,7 @@ Welcome to the repository for the CS361 Computer Security course, taught by Dr. 
 
 - **Key Findings:**  
   The assignment demonstrated Snort's effectiveness in identifying network anomalies and underscored the importance of intrusion detection systems in safeguarding networks against evolving cyber threats.
+
+- **Read More:** [Task 2 Readme](Task2/README.md)
 
 Feel free to explore the readmes for in-depth information on each task!
